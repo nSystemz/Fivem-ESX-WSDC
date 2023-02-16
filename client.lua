@@ -15,7 +15,7 @@
 
 print("^0======================================================================^7")
 print("^0ESX_WSDC loaded:")
-print("^0[^4Author^0] ^7:^0 ^0Nemesus | Version 1.0.0^7")
+print("^0[^4Author^0] ^7:^0 ^0Nemesus | Version 1.0.1^7")
 print("^0[^2Website^0] ^7:^0 ^5https://nemesus.de^7")
 print("^0[^2Youtube^0] ^7:^0 ^5https://youtube.nemesus.de^7")
 print("^0======================================================================^7")
@@ -23,7 +23,6 @@ print("^0======================================================================^
 -- ONLY EDIT IF YOU KNOW WHAT YOU ARE DOING!
 
 -- Locales
-ESX = nil
 xSound = exports.xsound
 local PlayerData = {}
 local vehicleCreated = nil
@@ -36,11 +35,6 @@ local objectLightCreated = nil
 
 -- ESX Stuff
 Citizen.CreateThread(function()
-	while ESX == nil do
-		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-		Citizen.Wait(0)
-	end
-
 	ESX.PlayerData = ESX.GetPlayerData()
 end)
 

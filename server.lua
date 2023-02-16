@@ -13,12 +13,6 @@
 
 -- ONLY EDIT IF YOU KNOW WHAT YOU ARE DOING!
 
-local ESX = nil
-
-TriggerEvent('esx:getSharedObject', function(obj) 
-    ESX = obj 
-end)
-
 ESX.RegisterServerCallback("esx_wsdc:getGroup", function(source, cb)
     local player = ESX.GetPlayerFromId(source)
 
