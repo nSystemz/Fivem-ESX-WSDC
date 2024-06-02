@@ -1,4 +1,4 @@
-# Fivem-ESX-WSDC
+# 🎮 Fivem-ESX-WSDC 🎮
 FiveM ESX Wird sind die coolsten GTA 5 Edition
 
 Diese Ressource fügt dem ESX Framework für FiveM, die Möglichkeit hinzu als Admin ein "Gangsterfahrzeug" zu spawnen, welches ein spezielles Tuning enthält und man während der Fahrt "Gangstermusik" abspielen kann.
@@ -13,6 +13,6 @@ Homepage: https://nemesus.de
 
 Dependencies: https://github.com/Xogy/xsound
 
-Ihr wollt uns unterstützen? https://ko-fi.com/nemesustv
+☕ Ihr wollt uns unterstützen? https://ko-fi.com/nemesustv ☕
 
 Viel Spass mit dieser Ressource!
